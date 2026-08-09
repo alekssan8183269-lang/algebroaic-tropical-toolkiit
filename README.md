@@ -60,9 +60,44 @@ pip install -r requirements.txt
 python examples/run_scheduling.py
 ```
 ---
-## 🗺️ Дорожная Карта (Roadmap)
-- [x] Создание универсального Max-Plus/Min-Plus ядра.
-- [x] Реализация тропического поиска критического пути.
-- [x] Разработка модуля попарных мутаций ДНК.
-- [x] Добавление модуля Тропического Машинного Обучения (Tropical SVM / Регрессия).
-- [x] Оптимизация матричных вычислений через `Numba` (JIT-компиляция).
+## 🗺️ Дорожная Карта Оцифровки (R&D Roadmap)
+
+Проект планомерно переводит сухую академическую математику в оптимизированный Python-код. Ниже представлен график реализации модулей на основе 20 ключевых мировых исследований:
+
+### 🧠 Блок 1: Алгоритмы ИИ и Машинного Обучения (Tropical ML)
+- [x] **Базовая тропическая регрессия:** Аналитический расчет Max-Plus полиномов.
+- [ ] **Tropical Attention Layer:** Слой внимания для Transformer-архитектур (*По статье: "Tropical Attention: Neural Algorithmic Reasoning...", 2025*).
+- [ ] **PINNs-Интеграция:** Тропическая геометрия для физико-информированных нейросетей (*По статье: "Tropical Geometry as a Restricted Architecture for PINNs", 2026*).
+- [ ] **TropNNC Engine:** Прунинг и сжатие весов ReLU-слоев нейросетей (*По статье: "Structured Neural Network Compression Using Tropical Geometry", 2025*).
+- [ ] **Инициализация MLP:** Оптимизация начальных весов через тропические многочлены (*По статье: "From Universal Approximation Theorem to Tropical Geometry of MLP", 2025*).
+- [ ] **Tropical SGD:** Градиентный спуск, оптимизированный под полиэдральные изломы функций (*По статье: "Tropical Gradient Descent", 2024*).
+- [ ] **Тропические RNN:** Анализ рекуррентных сетей как динамических систем (*По статье: "On the Tropical Geometry of Recurrent Neural Networks", 2025*).
+
+### 📉 Блок 2: Вычислительная Экономика (Tropical Economics)
+- [x] **Модель спроса Болдуина-Клемперера:** Геометрия цен потребительского выбора.
+- [ ] **Product-Mix Auctions:** Алгоритмы многопродуктовых аукционов для банковских систем (*По статье: "Product-Mix Auctions and Tropical Geometry", Klemperer et al.*).
+- [ ] **Revenue Maximization:** Дизайн механизмов максимизации выручки (*По статье: "Tropical Mechanism Design and Revenue Maximization", TU Berlin*).
+- [ ] **Рикардианская теория торговли:** Оценка выгоды международных рынков (*По статье: "Subtropical Convex Algebra and Ricardian Trade Theory", Y. Shiozawa*).
+- [ ] **Кооперативные игры:** Расчет справедливого распределения прибыли в альянсах (*По статье: "Tropical Cooperative Games and the Core", 2024*).
+- [ ] **Рынки присвоения (Assignment Markets):** Поиск равновесия спроса и предложения на рынке труда и недвижимости (*По статье: "Equilibrium in Assignment Markets...", 2025*).
+- **Динамика цен:** Моделирование инфляционных шоков ломаными фронтами волн (*По статье: "Non-Archimedean Valuation and Tropical Price Dynamics", 2026*).
+
+### 🧬 Блок 3: Биоинформатика, Логистика и Финансы
+- [x] **Попарные мутации ДНК:** Вычисление тропических проективных метрик.
+- [x] **Календарное планирование Кривулина:** Оптимизация задержек и дедлайнов процессов.
+- [ ] **Многокритериальная оптимизация:** Системы одновременной минимизации времени и затрат (*По статье: "Tropical Optimization in Multi-Criteria Decision Making", Н. Кривулин, 2024*).
+- [ ] **Рекомендательные системы (TMF):** Тропическая факторизация разреженных матриц оценок (*По статье: "Tropical Matrix Factorization for Recommender Systems", 2024*).
+- [ ] **Экономический баланс (Input-Output):** Разложение национальных таблиц «затраты-выпуск» (*По статье: "Tropical Matrix Factorization for Sparse Economic Tables", 2025*).
+- [ ] **Портфельный финтех:** Управление портфелями акций в условиях жестких скачков рынка (*По статье: "Tropical Dynamic Programming in Financial Portfolio Optimization", 2025*).
+- [ ] **Криптография нового поколения:** Тропические матрицы для защиты транзакций от квантовых компьютеров (*По статье: "Tropical Convexity and Cryptographic Key Exchange...", 2024*).
+
+### ⚡ Блок 4: Производительность и Инфраструктура
+- [x] **JIT-ускорение (Numba):** Компиляция Max-Plus умножения матриц в Си-скорость.
+- [ ] **GPU-Backend (CuPy):** Перенос вычислений тропических многочленов на видеокарты.
+- [ ] **Парсер био-форматов (.Newick / .FASTA):** Прямая загрузка реальных баз данных геномов.
+- [ ] **Символьные вычисления:** Модуль для аналитического упрощения буквенных тропических выражений.
+- [ ] **Интерактивный Dashboard (TroPy-UI):** Веб-панель на Streamlit для управления всеми 10 методами визуализации в реальном времени.
+
+
+## 📄 License
+This project is open-source and available under the MIT License. Feel free to use it for humanitarian, educational, or research purposes. Created in 2026.
