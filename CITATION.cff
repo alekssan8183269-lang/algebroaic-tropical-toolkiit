@@ -1,0 +1,22 @@
+cff-version: 1.0.0
+message: "If you use this software in your research or wish to cite the computational core, please cite it as below."
+authors:
+  - family-names: "Moiseenko"
+    given-names: "Aleksandr"
+    orcid: "https://orcid.org/0009-0006-4124-5954"
+title: "algebroaic-tropical-toolkiit: A High-Performance Python Framework for Applied Tropical Geometry, Algebraic Optimization, and Matrix Dequantization"
+version: 1.0.0
+
+date-released: 2026-08-09
+url: "https://github.com"
+repository-code: "https://github.com/alekssan8183269-lang/algebroaic-tropical-toolkiit"
+keywords:
+  - "tropical geometry"
+  - "max-plus algebra"
+  - "min-plus semiring"
+  - "tropical optimization"
+  - "bionic scheduling"
+  - "numba jit acceleration"
+  - "maslov dequantization"
+  - "phylogenetic networks"
+license: MIT
